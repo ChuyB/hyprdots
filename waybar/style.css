@@ -1,0 +1,68 @@
+@import "../../.cache/wal/colors-waybar.css";
+
+
+* {
+  min-height: 0;
+  font-family: FreeSans;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+window#waybar {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  background-color: alpha(@background, 0.3);
+  border-bottom: solid 1px @color6;
+}
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+#clock,
+#battery,
+#tray,
+#memory,
+#pulseaudio,
+#window {
+  color: @color7;
+  padding: 6px 0;
+}
+
+#workspaces button {
+  border: none;
+  color: @foreground;
+  padding: 0;
+}
+
+#workspaces button:hover {
+  border: none;
+  background: transparent;
+  color: @color1;
+}
+
+#workspaces button.active {
+  color: @color1;
+}
+
+#workspaces button.urgent {
+  color: @color3;
+}
+
+#tray {
+  margin-right: 7px;
+}
+
+#custom-exit {
+  margin-left: 7px;
+  margin-right: 7.5px;
+}
+
+#custom-sep {
+  color: @color7;
+}
+
+tooltip {
+  background: @background;
+  border-radius: 8px;
+}

@@ -1,0 +1,82 @@
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+* {
+    br: 8px;
+    text-color:         @fg0;
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+}
+
+window {
+    location:       center;
+    width:          600;
+    border-radius:  @br;
+}
+
+mainbox {
+    padding: 3px;
+}
+
+inputbar {
+    border-color:       @foreground;
+
+    border:         2px;
+    border-radius:  @br;
+
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ entry ];
+}
+
+prompt {
+    text-color: @fg2;
+}
+
+entry {
+    placeholder:        "Search";
+    placeholder-color:  @fg3;
+}
+
+message {
+    margin:             12px 0 0;
+    border-radius: @br;
+    border-color:       @bg2;
+    background-color:   @bg2;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    background-color:   transparent;
+
+    border:     0;
+    margin:     12px 0 0;
+    lines:      8;
+    columns:    1;
+
+    fixed-height: false;
+}
+
+element {
+    orientation: horizontal;
+    padding:        8px 16px;
+    spacing:        8px;
+    border-radius: @br;
+    children: [ element-icon, element-text ];
+}
+
+element normal active {
+    text-color: @bg3;
+}
+
+element-icon {
+    size:           1em;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+}
