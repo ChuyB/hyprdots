@@ -31,4 +31,4 @@ stow_config_folders
 stow_config_root
 
 
-git reset .
+git reset --hard
