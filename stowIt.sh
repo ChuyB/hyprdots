@@ -28,6 +28,7 @@ stow_config_root() {
 
 # Ejecutar la función
 stow_config_folders
+stow_config_root
 
 
 git reset .
