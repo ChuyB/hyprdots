@@ -6,6 +6,7 @@ stow_targets_folders=(
     hypr
     wal
     wezterm
+    ags
 )
 
 stow_targets_root=(
