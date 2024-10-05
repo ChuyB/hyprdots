@@ -1,4 +1,3 @@
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -9,6 +8,7 @@ zstyle :compinstall filename '/home/jesus/.zshrc'
 
 autoload -Uz compinit
 compinit
+setopt auto_cd
 
 export TERM="wezterm"
 [[ -n $TMUX ]] && export TERM="screen-256color"
@@ -16,10 +16,13 @@ export TERM="wezterm"
 # Starship
 eval "$(starship init zsh)"
 
+# Zoxide
+eval "$(zoxide init zsh)"
+
 # Plugins
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
@@ -28,3 +31,5 @@ source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 (cat ~/.cache/wal/sequences &)
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
+
+nitch
