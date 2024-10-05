@@ -2,20 +2,32 @@
 target_dir="$HOME/.config"
 
 # Lista de directorios y archivos a enlazar
-stow_targets=(
+stow_targets_folders=(
     hypr
     wal
     wezterm
 )
 
+stow_targets_root=(
+    zsh
+    tmux
+)
+
 # Función para crear enlaces simbólicos con Stow
-stow_config() {
-    for target in "${stow_targets[@]}"; do
+stow_config_folders() {
+    for target in "${stow_targets_folders[@]}"; do
         stow --adopt -t "$target_dir/$target" "$target"
     done
 }
 
+stow_config_root() {
+    for target in "${stow_targets_root[@]}"; do
+        stow --adopt -t "$HOME" "$target"
+    done
+}
+
 # Ejecutar la función
-stow_config
+stow_config_folders
+
 
 git reset .
