@@ -33,3 +33,10 @@ eval "$(zoxide init zsh)"
 source ~/.cache/wal/colors-tty.sh
 
 #nitch
+
+# bun completions
+[ -s "/home/jesus/.bun/_bun" ] && source "/home/jesus/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
