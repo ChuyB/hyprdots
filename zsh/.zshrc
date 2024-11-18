@@ -2,7 +2,6 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
-# End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/jesus/.zshrc'
 
@@ -32,11 +31,12 @@ eval "$(zoxide init zsh)"
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 
-#nitch
-
 # bun completions
 [ -s "/home/jesus/.bun/_bun" ] && source "/home/jesus/.bun/_bun"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# Run nitch
+nitch

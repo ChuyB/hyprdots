@@ -5,7 +5,9 @@ PICS=($(ls ${DIR}))
 
 RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
 
-swww img ${DIR}/${RANDOMPICS} --transition-type any --transition-fps 120 --transition-duration 1.0 --transition-bezier 0.65,0,0.35,1 --transition-step 255
-wal -i ${DIR}/${RANDOMPICS}
+wal --cols16 -i ${DIR}/${RANDOMPICS} --backend wal --saturate 0.55 &
+wait
+swww img ${DIR}/${RANDOMPICS} -t center --transition-fps 60 --transition-duration 1.0
 
 echo "Successfully set a new wallpaper and generated colors from it."
+

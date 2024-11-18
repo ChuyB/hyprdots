@@ -1,0 +1,30 @@
+@use "sass:color";
+@use "../colors";
+@use "../variables";
+
+.quick-settings {
+  $settings_size: 220pt;
+  padding: 0;
+  margin: 0;
+
+  .settings-list {
+    min-width: $settings_size;
+    padding: variables.$padding * 2.5;
+    margin: variables.$padding * 3 0;
+    background-color: color.change(colors.$bg, $alpha: 0.3);
+    border-radius: variables.$radius;
+
+    * {
+      color: #ffffff;
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+  }
+
+  .container {
+    min-width: $settings_size;
+    padding-left: variables.$padding * 4;
+    padding-right: variables.$padding * 4;
+    background-color: color.change(invert(colors.$bg), $alpha: 0.3);
+  }
+}

@@ -10,8 +10,7 @@
 window#waybar {
   transition-property: background-color;
   transition-duration: 0.5s;
-  background-color: alpha(@background, 0.7);
-  border-bottom: solid 1px @color6;
+  background-color: alpha(@background, 0.5);
 }
 
 window#waybar.hidden {

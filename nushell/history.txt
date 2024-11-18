@@ -1,0 +1,989 @@
+exit
+clear
+exit
+clear
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+ls
+clear
+exit
+ls
+clear
+ls
+clear
+lear
+clear
+z wezterm
+clear
+exit
+ls
+clear
+nvim
+clear
+exit
+exit
+exit
+ls
+clear
+exit
+ls
+clear
+zsh
+exit
+ls
+clear
+cat ~/.cache/wal/sequences
+clear
+z nu
+z dot
+clear
+z nushell/
+clear
+ls
+exit
+nvim
+exit
+nvim .zshrc
+clear
+ls
+clear
+ls -la
+ls -a
+ls -a | where name=Downloads
+ls -a | where name = "Downloads"
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+z dotfiles
+clear
+ls
+..
+clear
+z .dotfiles/
+ls
+clear
+nvim
+clear
+z
+yazi
+sudo pacman -Rn zsh
+clear
+z wezter
+clear
+exit
+nvim
+z nvim
+nvim
+clear
+exit
+nvim
+clear
+exit
+ls
+clear
+z nu
+clear
+exit
+clear
+exit
+exit
+clear
+exit
+nvim
+clear
+exit
+shutdown now
+z ags
+clear
+killall ags
+notify-send "Text" "afdafadfs"
+ags
+notify-send "Text" "afdafadfs"
+clear
+notify-send "Text" "afdafadfs"
+ags
+clear
+hyprctl monitors -j
+clear
+ags
+clear
+ags
+systemctl suspend
+clear
+ags
+clear
+hyprctl monitors -j
+ags
+clear
+ags
+clear
+clear
+nvim
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls | grid --color
+clear
+ls | grid
+clear
+ls | grid -c -w 30
+grid
+ls | grid
+clear
+ls | grid -c
+clear
+ls | gird -i
+ls | grid -i
+ls | grid -i -c
+ls | grid -i -c -w 60
+ls | grid -i -c -w 1
+ls | grid -i -c -w 10
+ls | grid -i -c -w 30
+ls | grid -i -c -w 120
+ls | grid -i -c -w 30
+clear
+ls
+clear
+ls
+clea
+clear
+ags
+ags --inspector
+ags
+ags --inspector
+ags
+nvim
+clear
+exit
+clear
+z code
+git clone https://github.com/ChuyB/ci3715-lab4-ci
+clear
+nvim
+clear
+z ci3715-lab4-ci/
+clear
+nvim
+pipenv lock
+clear
+pip
+clear
+pip install pipenv
+pacman -S pipenv
+sudo pacman -S pipenv
+clear
+lazygit
+clear
+sudo pip intall pipenv
+sudo pip install pipenv
+sudo pip install --break-system-packages pipenv
+pipenv lock
+clear
+lazygit
+clear
+nvim
+clear
+lazygit
+clear
+pipenv install --dev black
+lazygit
+clear
+pipenv run black . --check
+nvim
+clear
+exit
+pipenv run black .
+clear
+lazygit
+clear
+nvim
+lazygit
+clear
+nvim
+clear
+pipenv install --dev pytest-cov
+lazygit
+clear
+pipenv run pytest --cov=app
+nvim
+clear
+exit
+pipenv run pytest --cov
+clear
+nvim
+clear
+pipenv run pytest --cov
+pipenv run pytest --cov tests/
+pipenv run pytest --cov=app tests/
+pipenv run pytest --cov > file.txt
+pipenv run pytest --cov= tests/
+pipenv run pytest --cov=./ tests/
+pipenv run pytest --cov
+clear
+exit
+z ags
+nvim
+clear
+exit
+exit
+clear
+ags
+notify-send "Text" "afdafadfs"
+nvim
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+nitch
+clear
+exit
+clear
+z ags
+clear
+ags
+clear
+ags
+clear
+exit
+clear
+exit
+shutdown now
+z ags
+clear
+killall ags
+clear
+ags
+clear
+ags
+clear
+ags
+clear
+ags
+clear
+ags
+clear
+ags
+clear
+shutdown now
+z node
+clear
+lazygit
+clear
+./nodebb build && ./nodebb start
+./nodebb build and ./nodebb start
+./nodebb start
+systemctl suspend
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+./nodebb stop
+./nodebb build
+./nodebb start
+./nodebb stop; ./nodebb build; ./nodebb start
+./nodebb log
+lear
+./nodebb stop; ./nodebb build; ./nodebb start; ./nodebb log
+exit
+clear
+./nodebb stop
+clear
+nvim
+z nvim
+nvim
+clear
+exit
+./nodebb stop; ./nodebb build; ./nodebb start; ./nodebb log
+nvim
+clear
+exit
+./nodebb stop
+clear
+exit
+shutdown now
+exit
+systemctl suspend
+clear
+systemctl suspend
+exit
+shutdown now
+yay
+pip show
+clear
+pip list
+python-weather
+sudo pip uninstall pipenv
+sudo pip uninstall --break-system-packages pipenv
+clear
+yay
+pip list
+sudo pip uninstall --break-system-packages virtualenv
+yay
+pip list
+yay
+yay -Rn matugen-bin
+clear
+yay
+sudo pacman -Syu
+yay
+pip list
+sudo pip uninstall --break-system-packages distilib
+sudo pip uninstall --break-system-packages distlib
+yay
+clear
+shutdown now
+z hyrp
+z hypr
+clear
+nvim
+clear
+nvim
+clear
+exit
+clear
+z wezterm
+nvim
+clear
+exit
+z node
+clear
+nvim
+clear
+cler
+clear
+systemctl suspen
+systemctl suspend
+clear
+npm run lint
+clear
+npm run lint
+./nodebb build
+npm run lint
+nvim
+clear
+npm run lint
+clear
+fzf
+clear
+npm run lint
+clear
+git pull --rebase
+nvim
+clear
+npm run lint
+clear
+npm run lint
+exit
+nvim
+clear
+z node
+npm run lint
+systemctl suspend
+clear
+nvim
+clear
+exit
+clear
+exit
+yay -S thunderbird-nightly-bin
+clear
+yay -Rn thunderbird-nightly-bin
+clear
+exit
+z hypr
+clear
+nvim
+clear
+ls
+clear
+exit
+exi
+exit
+clear
+exit
+z hypr
+nvim
+exit
+clear
+z node
+clear
+./nodebb build; ./nodebb start
+clear
+./nodebb config set language:en-US
+clear
+./nodebb stop; ./nodebb build; ./nodebb start
+clear
+./nodebb stop; ./nodebb build; ./nodebb start
+systemctl suspend
+clear
+nvim
+clear
+exit
+z nvim
+z hypr
+exit
+nvim
+clear
+exit
+z hypr
+nvim
+clear
+exit
+z n
+z nodebb
+clear
+z n
+lazygit
+clear
+z hypr
+nvim
+clear
+exit
+htop
+clear
+btop
+exit
+z pro
+z hypr
+clear
+nvim
+z wezter
+nvim
+clear
+exiy
+exit
+z wezterm
+nvim
+z hypr
+clear
+exit
+systemctl suspend
+nvim
+clear
+exit
+./nodebb stop; ./nodebb build; ./nodebb start
+npm run lint
+nvim
+clear
+exit
+clear
+exit
+systemctl suspend
+z node
+clear
+nvim
+clear
+npm run test
+clear
+npm run test
+./nodebb stop
+npm run test
+mocha test/officialAnswers.js
+npx run mocha test/officialAnswers.js
+npx mocha test/officialAnswers.js
+npx mocha
+clear
+npx mocha test/officialAnswers.js
+npm run test -- -g 'Official Answers'
+nvim
+clear
+exit
+clear
+exit
+shutdown now
+exiyt
+exit
+yay
+clear
+yay -Rn zen-twilight-bin
+clear
+exit
+btop
+clear
+z node
+clear
+z wezterm
+nvim
+clear
+z node
+clear
+npm run test -- -g 'Official Answers'
+systemctl suspend
+nvim
+clear
+exit
+exit
+shutdown now
+z node
+clear
+exit
+npm run test -- -g 'Official Answers'
+btop
+lear
+clear
+aexit
+exit
+npm run test -- -g 'Official Answers'
+npm run test
+clear
+npm run lint
+clear
+nvim
+clear
+exit
+exit
+z node
+npm run test
+clear
+exit
+z ags
+nvim
+clear
+exit
+z node
+clear
+nvim
+exit
+systemctl suspend
+z wezterm
+clear
+nvim
+clear
+exit
+z node
+nvim
+fzf
+./nodebb stop; ./nodebb build; ./nodebb start
+nvim
+clear
+lazygit
+exit
+exit
+shutdown now
+systemctl suspend
+z node
+npm run test
+npm run test -- -g 'Official Answers'
+npm install
+./nodebb stop;
+clear
+npm run test -- -g 'Official Answers'
+./nodebb plugins
+clear
+cd plugins/nodebb-plugin-questions-and-answers/
+npm link
+..
+ls
+clear
+npm link nodebb-plugin-questions-and-answers
+./nodebb plugins
+clear
+npm run test -- -g 'Official Answers'
+clear
+cd plugins/nodebb-plugin-questions-and-answers/
+npm link
+..
+npm link nodebb-plugin-questions-and-answers
+clear
+./nodebb plugins
+nvim
+clear
+npm run test
+clear
+nvim
+clear
+exit
+exit
+shutdown now
+yay
+z node
+./nodebb activate questions-and-answers && ./nodebb activate composer-question && ./nodebb reset -p composer-default 
+./nodebb activate questions-and-answers ; ./nodebb activate composer-question ; ./nodebb reset -p composer-default 
+clear
+ls
+clear
+ls
+clear
+exit
+z node
+./nodebb plugins
+clear
+exit
+nvim
+npm install
+clear
+./nodebb plugins
+clear
+nvim
+npm install
+./nodebb plugins
+clear
+nvim
+clear
+./nodebb plugins
+clear
+exit
+z node
+nvim
+git pull --rebase
+nvim
+clear
+exit
+z hypr
+nvim
+exit
+z node
+clear
+npm run test
+clear
+nvim
+clear
+exit
+exit
+shutdown now
+ls
+clear
+z hypr
+nvim
+clear
+z node
+nvim
+clear
+exit
+z ags
+nvim
+clea
+clear
+exit
+z ags
+clear
+nvim
+exit
+z ags
+killall ags
+ags
+ags --i
+ags --inspector
+ags
+ags --inspector
+ags
+clear
+ags
+ags --inspector
+nvim
+exit
+ags
+shutdown now
+clear
+z node
+clear
+npm run lint
+./nodebb build
+npm run lint
+clear
+nvim
+clear
+z node
+node app --setup="{}"
+node app
+node app --setup="hola"
+node app --ci="lqñsjdfañ d"
+node app
+clear
+node app
+clear
+npm install
+node app
+clear
+./nodebb stop
+clear
+ls
+sudo rm -r node_modules/
+clear
+ls
+clear
+npm install
+node app
+./nodebb start
+clear
+node app --ci="            {<\n>              "host": "127.0.0.1",<\n>              "database": 1,<\n>              "port": 6379<\n>            }"
+clear
+node app
+node app --ci="asfda"
+node app
+clear
+nvim
+clear
+npm run test
+clear
+npm lint
+npm run lint
+nvim
+z noce
+z node
+nvim
+clear
+npm run lint
+clear
+exit
+systemctl suspend
+npm run test
+./nodebb start
+./nodebb stop
+npm run test
+nvim
+clear
+npm run test
+clear
+npm run test
+./nodebb start
+npm run test
+./nodebb stop
+npm run test
+clear
+npm run test
+./nodebb start
+./nodebb stop
+clear
+./nodebb stop
+npm run test
+clear
+exit
+nvim
+clear
+shutdown now
+nvim
+clear
+lear
+clear
+exit
+shutdown now
+systemctl suspend
+shutdown now
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+z code
+clear
+ls
+z proyecto_01_ci4321/
+cler
+clear
+git push --mirror https://github.com/ChuyB/proyecto_02_ci4321.git
+..
+clear
+git clone https://github.com/ChuyB/proyecto_02_ci4321
+z proyecto_02
+z proyecto_02_ci4321/
+clear
+ls
+clear
+nvim
+clear
+npm install
+lear
+nvim
+clear
+exit
+npm run dev
+clear
+exit
+z code
+ls
+git clone https://github.com/ChuyB/ci3715-basic-web-app
+clear
+z ci3715-basic-web-app/
+clear
+npm install; npm run dev
+npm install
+npm run dev
+npm run test
+clear
+nvim
+clear
+exit
+exit
+ls
+lear
+clear
+btop
+exit
+systemctl suspend
+shutdown now
+z proyecto_02_ci4321/
+z proyecto_02_ci4321
+clear
+killall ags
+nvim
+clear
+exit
+ags
+exit
+npm run dev
+clear
+exit
+shutdown now
+sudo pacman -S rpi-imager
+clear
+exit
+sudo pacman -S xz-utils
+sudo pacman -S xz
+clear
+exit
+z Downloads/
+unxz 2024-10-22-raspios-bookworm-armhf-lite.img.xz
+exit
+shutdown now
+z pro
+clear
+..
+z proyecto_02_ci4321/
+clear
+nvim
+clear
+exit
+npm run dev
+clear
+exit
+z proyecto_02_ci4321
+clear
+systemctl suspend
+nvim
+clear
+systemctl suspend
+exit
+systemctl suspend
+clear
+exit
+npm run dev
+exit
+nvim
+clear
+exit
+shutdown now
+z proyecto_02_ci4321
+clear
+npm run dev
+exit
+nvim
+erxit
+exit
+shutdown now
+z nvim
+clear
+exit
+systemctl suspend
+shutdown now
+clear
+z wezterm
+nvim
+z hypr
+nvim
+clear
+exit
+exit
+z nvim
+nvim
+clear
+z proyecto_02_ci4321
+clear
+nvim
+clear
+nvim
+clear
+nvim
+nvim
+clear
+nvim
+clear
+exit
+z nvim
+nvim
+z proyecto_02_ci4321
+nvim
+clear
+nvim
+clear
+nvim
+nvim
+exit
+exit
+z nvim
+nvim
+z proyecto_02_ci4321
+nvim
+exit
+z nvim
+nvim
+exit
+sudo pacman -S ollama
+clear
+ollama run codellama
+ollama --help
+ollama pull codellama
+ollama
+ollama pull codellama
+ollama run codellama "Write me a fibonacci function"
+ollama serve
+clear
+clear
+z /usr/share/ollama
+ls
+z
+sudo rm -r /usr/share/ollama/
+sudo rm -r /usr/share/ollama
+clear
+sudo pacman -Rn ollama
+clear
+sudo rm -r .ollama
+exit
+exit
+z proyecto_02_ci4321
+npm run dev
+clear
+exit
+shutdown now
+z proyecto_02_ci4321
+nvim
+exit
+npm run dev
+exit
+z nvim
+nvim
+exit
+clear
+z dot

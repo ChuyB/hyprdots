@@ -26,10 +26,9 @@ config = {
   -- initial_rows = 40,
 
   warn_about_missing_glyphs = false;
-
-
+  max_fps = 120,
   window_decorations = "RESIZE",
-  window_background_opacity = 0.7,
+  window_background_opacity = 0.85,
   enable_tab_bar = false,
   tab_bar_at_bottom = false,
   use_fancy_tab_bar = false,

@@ -1,0 +1,74 @@
+@use "sass:color";
+@use "../colors";
+@use "../variables";
+
+.notification-popups {
+  .notification-list {
+    min-width: 200pt;
+  }
+
+  padding: 0;
+  margin: 0;
+}
+
+.notification {
+  min-width: 200pt;
+  padding: variables.$padding * 2;
+  background-color: color.change(colors.$bg, $alpha: 0.3);
+  border-radius: 50pt;
+  margin: variables.$padding * 2;
+
+  * {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 0.95em;
+  }
+
+  .notification-icon {
+    $icon-size: 60px;
+
+    min-width: $icon-size;
+    min-height: $icon-size;
+    margin-right: variables.$padding * 3;
+
+    image {
+      font-size: $icon-size * 0.6;
+    }
+
+    box {
+      min-width: $icon-size;
+      min-height: $icon-size;
+      border-radius: 50pt;
+    }
+  }
+
+  .notification-title {
+    font-size: 1.4em;
+  }
+
+  .notification-body {
+    color: colors.$fg;
+  }
+}
+
+.notification-actions {
+  margin: 0 variables.$padding * 2;
+
+  * {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 0.95em;
+  }
+
+  .notification-action-button {
+    min-width: 60pt;
+    padding: variables.$padding * 0.5 variables.$padding * 2;
+    background-color: color.change(colors.$bg, $alpha: 0.3);
+    border-radius: 50pt;
+    margin-top: -5pt;
+
+    &:first-child {
+      margin-right: variables.$padding * 2;
+    }
+  }
+}

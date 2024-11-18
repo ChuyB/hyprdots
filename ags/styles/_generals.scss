@@ -1,0 +1,13 @@
+@use "sass:color";
+@use "colors";
+@use "variables";
+
+.container {
+  min-height: 12pt;
+  padding: variables.$padding * 0.9 variables.$padding;
+  margin: variables.$padding * 0.8 variables.$padding;
+  // background-color: color.change(invert(colors.$bg), $alpha: 0.3);
+  background-color: color.change(colors.$bg, $alpha: 0.3);
+  border-radius: variables.$radius;
+  color: colors.$fg;
+}
