@@ -7,6 +7,7 @@ stow_targets_folders=(
     wal
     wezterm
     ags
+    dunst
 )
 
 stow_targets_root=(

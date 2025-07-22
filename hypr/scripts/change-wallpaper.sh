@@ -5,7 +5,7 @@ PICS=($(ls ${DIR}))
 
 RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
 
-wal --cols16 -i ${DIR}/${RANDOMPICS} --backend wal --saturate 0.55 &
+wal -i ${DIR}/${RANDOMPICS} --backend wal --saturate 0.55 &
 wait
 swww img ${DIR}/${RANDOMPICS} -t center --transition-fps 60 --transition-duration 1.0
 
