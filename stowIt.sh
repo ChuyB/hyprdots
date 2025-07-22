@@ -8,6 +8,7 @@ stow_targets_folders=(
     wezterm
     ags
     dunst
+    fuzzel
 )
 
 stow_targets_root=(
